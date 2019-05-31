@@ -1,0 +1,36 @@
+"FirstResponder" = {ACTIONS = {}; OUTLETS = {}; SUPERCLASS = NSObject; };
+"XYPlotView" = {
+    ACTIONS = {
+        "clear:" = id; 
+        "executeCommand:" = id; 
+        "redrawPlot:" = id; 
+        "resetMinMax:" = id; 
+        "saveAsTiff:" = id; 
+        "saveEPS:" = id; 
+    }; 
+    OUTLETS = {
+        XYMatrix = id; 
+        commandsMatrix = id; 
+        legendFont = id; 
+        legendTitleFont = id; 
+        mainTitleFont = id; 
+        plotParam = id; 
+        switchesMatrix = id; 
+        theFontManager = id; 
+        ticLabelFont = id; 
+        toolboxPanel = id; 
+        xTitleFont = id; 
+        yTitleFont = id; 
+    }; 
+    SUPERCLASS = NSView; 
+};
+"popManager" = {
+    ACTIONS = {
+        "createANewPopulation:" = id; 
+        "saveSignalsInBinFile:" = id; 
+        "simulate:" = id; 
+    }; 
+    OUTLETS = {CA1Pop = id; fEchTxtField = id; finalTimeTxtField = id; managerWindow = id; }; 
+    SUPERCLASS = NSApplication; 
+};
+"signalViewer" = {ACTIONS = {}; OUTLETS = {}; SUPERCLASS = NSView; };

@@ -1,0 +1,33 @@
+{
+    APPCLASS = colManager; 
+    FILESTABLE = {
+        CLASSES = (popManager.m, population.m); 
+        C_FILES = (); 
+        FRAMEWORKS = (AppKit.framework, Foundation.framework); 
+        H_FILES = (fonctionsC.h, popManager.h, population.h); 
+        IMAGES = (); 
+        INTERFACES = (modeleNpop.nib, population.nib); 
+        M_FILES = (); 
+        OTHER_LIBS = (); 
+        OTHER_LINKED = (fonctionsC.c, modeleNpop_main.m); 
+        OTHER_SOURCES = (Makefile.preamble, Makefile, Makefile.postamble); 
+    }; 
+    GENERATEMAIN = YES; 
+    LANGUAGE = English; 
+    LOCALIZABLE_FILES = {modeleNpop.nib = modeleNpop.nib; population.nib = population.nib; }; 
+    MAKEFILEDIR = "$(NEXT_ROOT)/NextDeveloper/Makefiles/pb_makefiles"; 
+    NEXTSTEP_APPICON = modeleNcol.tiff; 
+    NEXTSTEP_DOCUMENTEXTENSIONS = (); 
+    NEXTSTEP_INSTALLDIR = "$(HOME)/Apps"; 
+    NEXTSTEP_MAINNIB = modeleNcol; 
+    PDO_UNIX_INSTALLDIR = "$(HOME)/Apps"; 
+    PDO_UNIX_MAINNIB = modeleNcol; 
+    PROJECTNAME = modeleNpop; 
+    PROJECTTYPE = Application; 
+    PROJECTVERSION = 2.6; 
+    SYSTEMEXTENSIONS = (); 
+    WINDOWS_BUILDTOOL = $NEXT_ROOT/NextDeveloper/Executables/make; 
+    WINDOWS_DOCUMENTEXTENSIONS = (); 
+    WINDOWS_INSTALLDIR = "$(HOME)/Apps"; 
+    WINDOWS_MAINNIB = modeleNpop; 
+}

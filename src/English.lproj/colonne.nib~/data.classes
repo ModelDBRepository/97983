@@ -1,0 +1,25 @@
+"FirstResponder" = {ACTIONS = {}; OUTLETS = {}; SUPERCLASS = NSObject; };
+"colonne" = {
+    ACTIONS = {"acceptParameters:" = id; }; 
+    OUTLETS = {
+        ATxtField = id; 
+        BTxtField = id; 
+        C1TxtField = id; 
+        C2TxtField = id; 
+        C3TxtField = id; 
+        C4TxtField = id; 
+        C5TxtField = id; 
+        C6TxtField = id; 
+        C7TxtField = id; 
+        CTxtField = id; 
+        GTxtField = id; 
+        aTxtField = id; 
+        bTxtField = id; 
+        coefMultPTxtField = id; 
+        gTxtField = id; 
+        moyPTxtField = id; 
+        parametersWindow = id; 
+        sigmaPTxtField = id; 
+    }; 
+    SUPERCLASS = NSObject; 
+};
