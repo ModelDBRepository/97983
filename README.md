@@ -1,4 +1,4 @@
-# Model described in
+Model described in
 
 **Authors:** Wendling F, Hernandez A, Bellanger JJ, Chauvel P, Bartolomei F
 **Title:** Interictal to ictal transition in human temporal lobe epilepsy: insights from a computational model of intracerebral EEG.
@@ -26,11 +26,11 @@ Campus de Beaulieu
 
 - The source code (src directory) can be imported in Linux GNUSTEP with minor modifications as GNUSTEP is compliant with Openstep specifications.
 
+---
 November 24th, 2008:
 Additional notes and files added: I am not using Linux+gnustep. The source code + exe I originally provided was compiled under Openstep for Windows (OSE). I had contacts with people who did not have openstep for windows. They recompiled the code under Gnustep with little modifications.
 
 However, in order to (re)solve the problem in windows, I specially produced a C version of the model (See the files and readme, which explains how to use in the new wendling_model_C_code folder). This version can be easily re-compiled under Unix and Windows, as the C language is very portable.
 
----
-
-2025-05-30: Standardized to Markdown.
+May 30th, 2025: 
+Standardized to Markdown.
